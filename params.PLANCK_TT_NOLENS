@@ -1,0 +1,87 @@
+
+#Output directory
+out_dir = results
+
+#Maximum L for which calculations are to be done
+max_l = 4000
+
+#The fiducial cosmological parameters followed by 
+#stepsize (leave zero/blank if that parameter is not to be varied. 
+
+Ombh2 = 0.0230
+Ombh2_step =  0.0011
+
+Omdh2 = 0.121
+Omdh2_step = 0.0001
+
+Nu_frac = 0.008
+Nu_frac_step = 0.0005
+
+num_massive_neutrinos = 1.
+num_massive_neutrinos_step = 
+
+num_massless_neutrinos = 2.04
+num_massless_neutrinos_step = 
+
+
+ThetaA = 0.010464
+ThetaA_step = 0.00001
+
+Omk = 0.0
+Omk_step = 
+
+tau = 0.11
+tau_step = 0.005
+
+ns = 0.96
+ns_step = 0.01
+
+nrun = 0.0
+nrun_step =
+
+#Scalar Amplitude (X 1e-9)
+
+scalar_amplitude = 2.4533
+scalar_amplitude_step = 0.024
+
+wlam = -1.
+wlam_step = 
+
+helium_fraction = 0.24
+helium_fraction_step = 0.012
+
+#Whether to include lensing in the analysis
+include_lensing = F
+
+#Number of spectra.
+#If include_lensing in False, then nspectra can have the following values only:
+# 1: TT
+# 3: TT,TE,EE  
+
+#If include_lensing is True, then nspectra has the following values only:
+# 3: TT, Td, dd
+# 5: TT, TE, EE, Td, dd
+
+n_spectra = 1
+
+
+#Experimental Specifications
+
+#Fraction of sky covered
+fsky = 0.65
+
+#Number of freq channels.
+nchannels = 9
+
+#The Frequencies of the channels
+frequencies = 30. 44. 70. 100. 143. 217. 353. 545. 857.
+
+#The beam FWHM of the channels (arcmins)
+beamFWHM = 33. 23. 14. 9.5 7.1 5.0 5.0 5.0 5.0
+
+#The temperature noise per pixel \Delta_T/T_CMB (X 10^6) (note division by TCMB)
+deltaT = 1.61 2.38 3.59 2.49 2.2 4.81 14.7 147. 6713. 
+
+
+#The polarization noise per pixel \Delta_T/T_CMB (X 10^6) (note division by TCMB)
+deltaP = 2.28 3.37 5.08 3.99 4.18 9.79 29.8 1e30 1e30

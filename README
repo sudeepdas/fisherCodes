@@ -1,0 +1,20 @@
+fishrCodes version 1
+
+Sudeep Das
+Princeton University
+
+Documentation can be found at:
+
+http://www.astro.princeton.edu/~sudeep/fisherCodesDoc/index.html
+
+
+Report bugs to:
+
+sudeep@astro.princeton.edu
+
+Test:
+To test, run 
+./FisherCombine.x params.xxxxx
+
+with one of the parameter files provided. It should create some filea in the results/ dir.
+
