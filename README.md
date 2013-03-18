@@ -1,16 +1,15 @@
 fishrCodes version 1
 
 Sudeep Das
-Princeton University
+Princeton University/Berkeley/Argonne Natinal Laboratory
 
 Documentation can be found at:
 
-http://www.astro.princeton.edu/~sudeep/fisherCodesDoc/index.html
-
+http://www.hep.anl.gov/sdas/fisherCodesDoc/
 
 Report bugs to:
 
-sudeep@astro.princeton.edu
+sudeepphys@gmail.com
 
 Test:
 To test, run 
