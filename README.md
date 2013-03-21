@@ -1,4 +1,4 @@
-fishrCodes
+fisherCodes
 =============
 
 
