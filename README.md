@@ -1,4 +1,8 @@
-fishrCodes version 1
+fishrCodes
+=============
+
+
+Codes for Fisher prediction of cosmological parameters with future CMB experiments (F90).
 
 Sudeep Das
 Princeton University/Berkeley/Argonne Natinal Laboratory
